@@ -16,7 +16,6 @@ h1 {
     font-weight: bold;
     line-height: 0.05; 
     margin: 0 0 10px; 
-/*    padding: 50px 10px;*/
     padding-top: 50px;
     padding-left: 20px;
     padding-right: 20px;
@@ -38,19 +37,27 @@ p{
     font-size: 1.2em;
 }
 
-/*esp. 1*/
-img,video{
+/*esp. 1, 1, 1*/
+img,video,audio{
     display: block;
     margin-left: auto;
     margin-right: auto;   
 }
 
-
+/*esp. 1*/
+a{
+    padding: 0.3em;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block;
+    margin-bottom: 10px;
+}
 
 /*esp. 2*/
 nav li {
     display: inline-block;
     }
+
 /*esp. 2*/
 nav ul{
     text-align: center;
@@ -64,15 +71,6 @@ nav li a {
     padding: 10px;
     background-color: #2175bc;
     color: #fff;
-}
-
-a{
-    padding: 0.3em;
-    text-align: center; 
-    text-decoration: none;
-    display: inline-block;
-    outline-style: hidden;
-    margin-bottom: 10px;
 }
 
 
