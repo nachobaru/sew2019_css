@@ -1,6 +1,7 @@
 /*especificidad: a=0 b=0 c=1 - 1*/
 #temporadas {
     border-collapse: collapse;
+    border: 1px solid black;
     width: 100%;
 }
 
@@ -8,6 +9,7 @@
 #temporadas th, #temporadas td {
     text-align: left;
     padding: 8px;
+    border: 1px solid black;
 }
 
 /*especificidad: a=0 b=1 c=1 - 11*/
