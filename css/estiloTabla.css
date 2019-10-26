@@ -1,0 +1,28 @@
+/*especificidad: a=0 b=0 c=1 - 1*/
+#temporadas {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/*especificidad: a=0 b=0 c=1 - 1*/
+#temporadas th, #temporadas td {
+    text-align: left;
+    padding: 8px;
+}
+
+/*especificidad: a=0 b=1 c=1 - 11*/
+#temporadas tr:nth-child(even){background-color: #f2f2f2}
+
+/*especificidad: a=0 b=1 c=1 - 11*/
+#temporadas tr:nth-child(odd){background-color: #f2f2f2}
+
+/*especificidad: a=0 b=0 c=1 - 1*/
+#temporadas th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/*especificidad: a=0 b=1 c=1 - 11*/
+section.temp{
+    padding: 3em;
+}
